@@ -1,12 +1,13 @@
 
-## Project cutie shell           
-Status: Beta project OTA-1.0.24                                                                                                                                   
-Tested on: Volla Phone, Xiaomi Redmi 7, OnePlus 6t                                                                                         
-                      
-                                           
-                                        
-## Auto Bash script
-* Install droidian phosh and devtools on your device.  
+![Cutie Shell logo](https://avatars.githubusercontent.com/u/88682014?s=200&v=4)
+
+Status: Pre-alpha
+
+Tested on: Volla Phone, Xiaomi Redmi 7, OnePlus 6t
+
+## Automatic installation script
+
+* Install Droidian phosh and devtools on your device.  
 * Connected the device to a PC running Linux: `ssh droidian@10.15.19.82`  
 
 ```
@@ -15,6 +16,7 @@ wget -O - https://raw.githubusercontent.com/Cutie-Pi-Shell-community-project/cut
 
 
 ### Manual building
+
 * Install droidian phosh and devtools on your device.  
 * Connected the device to a PC running Linux: `ssh droidian@10.15.19.82`    
 
