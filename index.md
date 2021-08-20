@@ -1,9 +1,7 @@
 
 ![Cutie Shell logo](https://avatars.githubusercontent.com/u/88682014?s=200&v=4)
 
-Status: Pre-alpha
-
-Tested on: Volla Phone, Xiaomi Redmi 7, OnePlus 6t
+### [View Development Progress](/progress.md)
 
 ## Automatic installation script
 
@@ -64,7 +62,3 @@ ctrl x
 y
 enter
 ```
-
-## Status
-
-https://github.com/Cutie-Pi-Shell-community-project/development-status/
