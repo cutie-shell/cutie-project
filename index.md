@@ -9,7 +9,7 @@
 * Connected the device to a PC running Linux: `ssh droidian@10.15.19.82`  
 
 ```
-wget -O - https://raw.githubusercontent.com/Cutie-Pi-Shell-community-project/cutie-shell/qtwayland-phone-tablet/install.sh | bash
+wget -O - https://raw.githubusercontent.com/cutie-shell/cutie-shell/qtwayland-phone-tablet/install.sh | bash
 ```
 
 
@@ -19,27 +19,32 @@ wget -O - https://raw.githubusercontent.com/Cutie-Pi-Shell-community-project/cut
 * Connected the device to a PC running Linux: `ssh droidian@10.15.19.82`    
 
 ```
-sudo apt update && sudo apt install git qtdeclarative5-dev qdbus qtcreator qml qtbase5-gles-dev qt5-qpa-hwcomposer-plugin g++ make libudev-dev qml-module-qtquick2 qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtsensors qml-module-qtwayland-compositor qml-module-qtquick-virtualkeyboard polkit-kde-agent-1 libqt5dbus5
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install git qtdeclarative5-dev qdbus qtcreator qml qtbase5-gles-dev qt5-qpa-hwcomposer-plugin g++ make libudev-dev qml-module-qtquick2 qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtsensors qml-module-qtwayland-compositor qml-module-qtquick-virtualkeyboard polkit-kde-agent-1 libqt5dbus5 libqt5waylandclient5 libqt5waylandclient5-dev qtwayland5 qtvirtualkeyboard-plugin qml-module-qt-labs-folderlistmodel -y
 cd ~
-sudo git clone https://github.com/Cutie-Pi-Shell-community-project/atmospheres.git /usr/share/atmospheres
-git clone https://github.com/Cutie-Pi-Shell-community-project/CutiePi-shell-phone-components.git
-git clone https://github.com/Cutie-Pi-Shell-community-project/cutie-settings-daemon.git
-git clone https://github.com/Cutie-Pi-Shell-community-project/qml-module-cutie.
+
+sudo git clone https://github.com/cutie-shell/atmospheres.git /usr/share/atmospheres
+git clone https://github.com/cutie-shell/cutie-shell
+git clone https://github.com/cutie-shell/cutie-settings-daemon.git
+git clone https://github.com/cutie-shell/qml-module-cutie.git
 
 cd cutie-settings-daemon
 qmake
-make 
+make -j$(nproc)
 sudo make install
+
 cd ../qml-module-cutie
 qmake
-make
+make -j$(nproc)
 sudo make install
-cd ../CutiePi-shell-phone-components
-mkdir -p /etc/systemd/logind.conf.d
-sudo cp -R logind.conf.d/10-cutie.conf /etc/systemd/logind.conf.d/10-cutie.conf
 
+cd ../cutie-shell
+sudo mkdir -p /etc/systemd/logind.conf.d/
+sudo cp -R logind.conf.d/10-cutie.conf /etc/systemd/logind.conf.d/10-cutie.conf
+cp gtk.css ~/.config/gtk-3.0/gtk.css
 qmake
-make
+make -j$(nproc)
 sudo make install
 sudo cp cutie-ui-io.service /usr/lib/systemd/system/cutie-ui-io.service
 sudo systemctl daemon-reload
