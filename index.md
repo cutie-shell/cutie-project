@@ -3,9 +3,15 @@
 
 ### [View Development Progress](/progress.md)
 
-## Automatic installation script
+## Pre-installation rootfs gsi (halium-9.0+)
+* Flash rootfs in twrp https://github.com/cutie-shell/rootfs-api28gsi-all/releases/                             
+* supported: arm64,amd64 android devices                                        
 
-* Install Droidian phosh and devtools on your device.  
+
+
+## Automatic installation (halium-9.0+)
+
+* Install Droidian hybris phosh and devtools on your device.  
 * Connected the device to a PC running Linux: `ssh droidian@10.15.19.82`  
 
 ```
@@ -54,6 +60,7 @@ sudo systemctl enable cutie-ui-io
 sudo reboot
 ```
 
+### Troubleshooting
 
 ### To fix isues on scaling
 * Connected the device to a PC running Linux: `ssh droidian@10.15.19.82` 
@@ -67,3 +74,9 @@ ctrl x
 y
 enter
 ```
+### Connecting to wifi on cutie-rootfs-minimal
+* Connected the device to a PC running Linux: `ssh droidian@10.15.19.82` 
+```
+nmcli device wifi connect "YOUR_WIFI_SSID" password YOUR_WIFI_PASSWD name "YOUR_WIFI_SSID"
+```
+
