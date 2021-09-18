@@ -9,6 +9,17 @@
 
 
 
+## Automatic installation pre-build packages (hybris)
+
+* Install linux debian based on your device.  
+* Connected the device to a PC running Linux: `ssh droidian@10.15.19.82` 
+
+```
+wget -O - https://raw.githubusercontent.com/cutie-shell/cutie-shell/bullseye/install-pre-build-packages.sh | bash
+```
+
+
+
 ## Automatic installation (hybris api28+)
 
 * Install Droidian hybris phosh and devtools on your device.  
