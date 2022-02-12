@@ -7,42 +7,42 @@ description: Here you can find a list of features that are working
 
 Status: Pre-alpha
 
-Tested on: Volla Phone, Xiaomi Redmi 7, OnePlus 6t
+Tested on: Volla Phone, Google Pixel 3a, PinePhone
 
 # Development Progress 
 
 |feature  | status |
 | --- | --- |
-| gpu acceleration | Y |
-| LockScreen| P |
-| Brightness | Y |
-| Auto-Brightness | N |
-| Nofication | Y |
-| onScreen keyboard| Y |
-| built a set of applications| P |
+| GPU acceleration | Y |
+| Lockscreen| P |
+| Brightness | P |
+| Auto-Brightness | Y |
+| Orientation | P |
+| Auto-Orientation | Y |
+| Volume control | Y |
+| Nofications | N |
+| On-screen keyboard| Y |
+| Built-in set of applications| P |
 | Camera app| N |
-| Calls app| N |
+| Dialer app| N |
 | Contacts app| N |
 | Settings app| N |
 | Music app| N |
 | File Manager app| N |
-| VideoPlayer app| N |
+| Video Player app| N |
 | Calendar app | N |
-| We browser app | Y |
+| Web browser app | P |
 | SMS app| N |
-| Weather app| P |
-| Sounds ui| N |
+| Weather app| N |
+| Haptics in UI| Y |
 | Launcher in shell| Y | 
-| Battery status in statusbar| Y |
-| SIM1 status in statusbar| Y |
-| SIM2 status in quick settings| Y |
+| Battery status in statusbar| N |
+| SIM1 status in statusbar| N |
+| SIM2 status in quick settings| N |
 | WiFi status in statusbar| N |
-| Vibration keyboard| N |
-| Wayland client scaling | Y |
 | Homescreen of open applications| Y |
-| Atmospheres (themes) | Y |
-| Wayland integration with hwcomposer| Y |
-| xWayland integration| N |
+| Theming | P |
+| XWayland integration| N |
 
 ## Legend
 
