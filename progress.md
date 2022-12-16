@@ -16,32 +16,32 @@ Tested on: Volla Phone, Google Pixel 3a, PinePhone
 | GPU acceleration | Y |
 | Lockscreen| P |
 | Brightness | P |
-| Auto-Brightness | Y |
-| Orientation | P |
-| Auto-Orientation | Y |
-| Volume control | Y |
-| Nofications | N |
+| Auto-Brightness | N |
+| Orientation | N |
+| Auto-Orientation | N |
+| Volume control | N |
+| Nofications | Y |
 | On-screen keyboard| Y |
 | Built-in set of applications| P |
 | Camera app| N |
 | Dialer app| N |
 | Contacts app| N |
-| Settings app| N |
-| Music app| N |
+| Settings app| P |
+| Music app| Y |
 | File Manager app| N |
 | Video Player app| N |
 | Calendar app | N |
 | Web browser app | P |
 | SMS app| N |
 | Weather app| N |
-| Haptics in UI| Y |
+| Haptics in UI| N |
 | Launcher in shell| Y | 
-| Battery status in statusbar| N |
-| SIM1 status in statusbar| N |
+| Battery status in statusbar| Y |
+| SIM1 status in statusbar| Y |
 | SIM2 status in quick settings| N |
-| WiFi status in statusbar| N |
+| WiFi status in statusbar| Y |
 | Homescreen of open applications| Y |
-| Theming | P |
+| Theming | N |
 | XWayland integration| N |
 
 ## Legend
