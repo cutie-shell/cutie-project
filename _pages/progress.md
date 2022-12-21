@@ -1,9 +1,8 @@
 ---
-title: Cutie Shell Progress
-description: Here you can find a list of features that are working
+title: Progress Tracker
+description: Here you can find a list of features we have
+permalink: /progress
 ---
-
-### [<< Back to main page](/)
 
 Status: Pre-alpha
 
@@ -32,7 +31,7 @@ Tested on: Volla Phone, Google Pixel 3a, PinePhone
 | Video Player app| N |
 | Calendar app | N |
 | Web browser app | P |
-| SMS app| N |
+| SMS app| P |
 | Weather app| N |
 | Haptics in UI| N |
 | Launcher in shell| Y | 

@@ -1,3 +1,25 @@
-theme: jekyll-theme-cayman
+remote_theme: mmistakes/minimal-mistakes
 title: Cutie Shell
 description: A mobile UI/UX for smartphones and tablets.
+logo: "https://avatars.githubusercontent.com/u/88682014?s=200&v=4"
+plugins:
+  - jekyll-include-cache
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cutie-shell"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://t.me/CutieShellProject"
+atom_feed:
+  hide: true
+include: ["_pages"]
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
