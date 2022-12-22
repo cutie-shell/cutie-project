@@ -1,0 +1,11 @@
+---
+layout: single
+---
+
+{% assign num = page.photos.size %}
+
+<p float="left">
+  {% for i in (1..num) %}
+    <img style="margin: 5px;" width="190px" src="{{ site.baseurl }}/images/photos/{{ page.photos.set }}-{{ i }}.jpg" alt="Screenshot {{ i }}">
+  {% endfor %}
+</p>
