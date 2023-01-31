@@ -7,3 +7,5 @@ The project is still heavily under development and is pre-alpha quality. This me
 We also offer daily Droidian builds containing a development snapshot of Cutie Shell and the base apps for easy testing.
 
 [Get Cutie!](/install){: .btn}
+
+For app developers wishing to develop apps following the project's visual style, we have documentation for qml-module-cutie [here](https://cutie-shell.org/qml-module-cutie/). The QML module also is responsible for easy system integration. Also, do note that the library and it's API is subject to change any time due to the current development phase.
