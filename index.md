@@ -8,4 +8,4 @@ We also offer daily Droidian builds containing a development snapshot of Cutie S
 
 [Get Cutie!](/install){: .btn}
 
-For app developers wishing to develop apps following the project's visual style, we have documentation for qml-module-cutie [here](https://cutie-shell.org/qml-module-cutie/). The QML module also is responsible for easy system integration. Also, do note that the library and it's API is subject to change any time due to the current development phase.
+For app developers wishing to develop apps following the project's visual style, we have documentation for qml-module-cutie [here](https://cutie-shell.org/qml-module-cutie/). The QML module also is responsible for easy system integration. Also, note that the library and its API are subject to change anytime due to the current development phase.
