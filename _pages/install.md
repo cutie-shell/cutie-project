@@ -17,11 +17,23 @@ Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based dist
 
 # Which image to get?
 
-The recovery flashable zipfile needs to be flashed via a suitable Android recovery (such as TWRP). Recovery flashable zipfiles are generic. Nevertheless, you should pick up the correct zipfile for your specific device:
+There are two different types of images:
+
+* Fastboot-flashable image
+* Recovery-flashable zipfile
+
+Fastboot-flashable images are, instead, the recommended way to install Droidian. These images are device specific, so if you want one for your device you should create one yourself.
+Fastboot-flashable images support Full Disk Encryption, and make use of the whole userdata partition.
+
+The recovery flashable zipfile needs to be flashed via a suitable Android recovery (such as TWRP). Recovery flashable zipfiles are generic, and are useful to test drive Droidian or in early device porting stages.  
+
+You should pick up the correct zipfile for your specific device:
 
 * Device with an Android 9 vendor: api28
 * Device with an Android 10 vendor: api29
 * Device with an Android 11 vendor: api30
+* Device with an Android 12/12.1 vendor: api32
+* Device with an Android 13 vendor: api33
 
 ## Recovery-flashable zipfile: bundles
 
@@ -31,8 +43,6 @@ Currently available bundles:
 
 * Devtools: Useful development tools for porters, not available in nightlies as they're embedded in the rootfs
 * Adaptation bundle: Device specific bundle (containing kernel, device-specific settings, etc)
-
-Currently, we provide adaptation bundles for Volla Phone and Google Pixel 3a.
 
 # Recovery-flashable zipfile: installation instructions
 
