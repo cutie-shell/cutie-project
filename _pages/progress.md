@@ -6,8 +6,6 @@ permalink: /progress
 
 Status: Pre-alpha
 
-Tested on: Volla Phone, Google Pixel 3a, PinePhone
-
 # Development Progress 
 
 |feature  | status |
@@ -18,12 +16,12 @@ Tested on: Volla Phone, Google Pixel 3a, PinePhone
 | Auto-Brightness | N |
 | Orientation | N |
 | Auto-Orientation | N |
-| Volume control | N |
+| Volume control | Y |
 | Nofications | Y |
 | On-screen keyboard| Y |
 | Built-in set of applications| P |
 | Camera app| N |
-| Dialer app| N |
+| Dialer app| Y |
 | Contacts app| N |
 | Settings app| P |
 | Music app| Y |
@@ -31,16 +29,16 @@ Tested on: Volla Phone, Google Pixel 3a, PinePhone
 | Video Player app| N |
 | Calendar app | N |
 | Web browser app | P |
-| SMS app| P |
+| SMS app| Y |
 | Weather app| N |
 | Haptics in UI| N |
-| Launcher in shell| Y | 
+| App Launcher | Y | 
 | Battery status in statusbar| Y |
 | SIM1 status in statusbar| Y |
 | SIM2 status in quick settings| N |
 | WiFi status in statusbar| Y |
-| Homescreen of open applications| Y |
-| Theming | N |
+| Homescreen with app switcher| Y |
+| Theming | Y |
 | XWayland integration| N |
 
 ## Legend
@@ -53,6 +51,7 @@ Tested on: Volla Phone, Google Pixel 3a, PinePhone
 
 ## Developers
 
-* Erik Inkinen
-* Vin4ter
-* Xyn
+* [Erik Inkinen](https://github.com/erikinkinen)
+* [Alexey](https://github.com/Vin4ter)
+* [Xyn](https://github.com/xyn)
+* [arpio23](https://github.com/arpio23)
