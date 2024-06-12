@@ -12,7 +12,7 @@ Status: Pre-alpha
 | --- | --- |
 | GPU acceleration | Y |
 | Lockscreen| P |
-| Brightness | P |
+| Brightness | Y |
 | Auto-Brightness | N |
 | Orientation | N |
 | Auto-Orientation | N |
@@ -20,22 +20,22 @@ Status: Pre-alpha
 | Nofications | Y |
 | On-screen keyboard| Y |
 | Built-in set of applications| P |
-| Camera app| N |
+| Camera app| P |
 | Dialer app| Y |
-| Contacts app| N |
+| Contacts app| Y |
 | Settings app| P |
 | Music app| Y |
 | File Manager app| N |
 | Video Player app| N |
 | Calendar app | N |
-| Web browser app | P |
+| Web browser app | Y |
 | SMS app| Y |
 | Weather app| N |
-| Haptics in UI| N |
+| Haptics in UI| Y |
 | App Launcher | Y | 
 | Battery status in statusbar| Y |
 | SIM1 status in statusbar| Y |
-| SIM2 status in quick settings| N |
+| SIM2 status in quick settings| Y |
 | WiFi status in statusbar| Y |
 | Homescreen with app switcher| Y |
 | Theming | Y |
@@ -52,6 +52,6 @@ Status: Pre-alpha
 ## Developers
 
 * [Erik Inkinen](https://github.com/erikinkinen)
+* [arpio23](https://github.com/arpio23)
 * [Alexey](https://github.com/Vin4ter)
 * [Xyn](https://github.com/xyn)
-* [arpio23](https://github.com/arpio23)
