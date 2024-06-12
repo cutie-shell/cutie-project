@@ -12,6 +12,9 @@ footer:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/CutieShellProject"
+    - label: "Matrix"
+      icon: "fab fa-fw fa-matrix-org"
+      url: "https://matrix.to/#/#cutieshell:matrix.org"
 atom_feed:
   hide: true
 include: ["_pages"]
