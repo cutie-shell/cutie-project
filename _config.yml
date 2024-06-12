@@ -7,13 +7,13 @@ plugins:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa fa-fw fa-github"
       url: "https://github.com/cutie-shell"
     - label: "Telegram"
-      icon: "fab fa-fw fa-telegram"
+      icon: "fa fa-fw fa-telegram"
       url: "https://t.me/CutieShellProject"
     - label: "Matrix"
-      icon: "fab fa-fw fa-matrix-org"
+      icon: "fa fa-fw fa-matrix-org"
       url: "https://matrix.to/#/#cutieshell:matrix.org"
 atom_feed:
   hide: true
